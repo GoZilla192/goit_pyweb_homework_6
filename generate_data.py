@@ -13,7 +13,6 @@ faker = Faker("uk-UA")
 
 
 def generate_groups():
-    # TODO: не должны повторятся
     possible_groups_name = ["IPZ-23-11", "IPZ-22-9", "PM-23-9", "M-23-9", "AT-23-11"]
     shuffle(possible_groups_name)
 
